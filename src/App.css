@@ -1,0 +1,48 @@
+/* ImageGrid.css */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 100px;
+  padding: 150px;
+}
+
+.image-block {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Navbar.css */
+.navbar {
+  background-color: #3f3333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: rgb(230, 210, 37);
+}
+
